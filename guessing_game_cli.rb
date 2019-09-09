@@ -1,5 +1,4 @@
-# Code your solution here!
-ruby bin/guessing_game_cli
+
 def run_guessing_game()
   puts "Guess a number between 1 and 6."
   input = gets.chomp()
