@@ -11,10 +11,9 @@ def run_guessing_game()
       puts "Guess a number again between 1 and 6."
       input = gets.chomp()
     else
-      puts "Computer guessed #{computer_guess}"
-      puts "Keep guessing!"
-      puts "Guess a number between 1 and 6."
-      input = gets.chomp()
+      puts "Sorry! The computer guessed <number>"
+      puts "Goodbuy!"
+           input = gets.chomp()
     end
   end
 
